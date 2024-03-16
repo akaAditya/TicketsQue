@@ -8,7 +8,6 @@ const Navbar = ({ onSearch }) => {
   const userData = useUserData(userAuth);
   const [searchTask, setSearchTask] = useState("");
 
-
   const handleSearchChange = (e) => {
     setSearchTask(e.target.value);
   };
@@ -22,15 +21,6 @@ const Navbar = ({ onSearch }) => {
   const logoutHandler = () => {
     userAuth.logout();
   };
-  useEffect(() => {
-    if (userData) {
-      Object.values(userData).map((user) => {
-        taskEmail = user.email;
-        taskFname = user.fname;
-        taskLname = user.lname;
-      });
-    }
-  }, [userData]);
 
   useEffect(() => {
     if (userData) {

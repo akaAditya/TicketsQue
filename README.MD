@@ -1,14 +1,16 @@
 Assigned By: TicketsQue
 Project Name: Advanced Task Manager
 
-Link: 
+Link: https://cheerful-pithivier-43b408.netlify.app/
 
-GitHub:
+GitHub: https://github.com/akaAditya/TicketsQue
 
 Technology Used:
 
 Front-End: React.js, react-router-dom, Tailwind CSS, react-toastify
 API: Firebase
+
+
 Features:
 
 1. User Authentication: Implemented secure authentication using Firebase, ensuring user data privacy and security.
